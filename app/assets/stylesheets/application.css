@@ -13,3 +13,35 @@
  *= require_tree .
  *= require_self
  */
+
+/*ヘッターのcss*/
+header {
+  height: 66px;
+}
+header ul li{
+  display: inline;
+  padding-left: 5px;
+}
+header ul .registration a{
+  background-color: blue;
+  display: block;
+  float: right;
+  border-radius: 2px;
+  width: 80px;
+  border-radius: 12px;
+  text-align: center
+}
+header ul .login a{
+  background-color: yellow;
+  display: block;
+  float: right;
+  border-radius: 2px;
+  width: 80px;
+  border-radius: 12px;
+  text-align: center
+}
+header ul{
+  position: absolute;
+  right: 10%;
+  height: 66px;
+}
